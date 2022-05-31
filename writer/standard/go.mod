@@ -6,7 +6,7 @@ require (
 	github.com/fogleman/gg v1.3.0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.7.0
-	github.com/WilliamNHarvey/go-qrcode/v2 v2.2.0
+	github.com/WilliamNHarvey/go-qrcode/v2 v2.2.2
 	golang.org/x/image v0.0.0-20200927104501-e162460cd6b5
 )
 
