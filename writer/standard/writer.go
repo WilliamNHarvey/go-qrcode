@@ -205,7 +205,7 @@ done:
 }
 
 func validLogoImage(qrWidth, qrHeight, logoWidth, logoHeight int) bool {
-	return qrWidth >= 5*logoWidth && qrHeight >= 5*logoHeight
+	return qrWidth >= 4*logoWidth && qrHeight >= 4*logoHeight
 }
 
 // Attribute contains basic information of generated image.
