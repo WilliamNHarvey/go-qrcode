@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/yeqown/go-qrcode/v2"
-	"github.com/yeqown/go-qrcode/writer/standard"
+	"github.com/WilliamNHarvey/go-qrcode/v2"
+	"github.com/WilliamNHarvey/go-qrcode/writer/standard"
 )
 
 func main() {
-	qrc, err := qrcode.New("https://github.com/yeqown/go-qrcode")
+	qrc, err := qrcode.New("https://github.com/WilliamNHarvey/go-qrcode")
 	if err != nil {
 		panic(err)
 	}

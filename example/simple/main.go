@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/yeqown/go-qrcode/writer/standard"
+	"github.com/WilliamNHarvey/go-qrcode/writer/standard"
 
-	"github.com/yeqown/go-qrcode/v2"
+	"github.com/WilliamNHarvey/go-qrcode/v2"
 )
 
 func main() {
-	qrc, err := qrcode.NewWith("github.com/yeqown/go-qrcode",
+	qrc, err := qrcode.NewWith("github.com/WilliamNHarvey/go-qrcode",
 		qrcode.WithEncodingMode(qrcode.EncModeByte),
 		qrcode.WithErrorCorrectionLevel(qrcode.ErrorCorrectionQuart),
 	)

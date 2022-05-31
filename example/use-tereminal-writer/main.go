@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/yeqown/go-qrcode/v2"
-	"github.com/yeqown/go-qrcode/writer/terminal"
+	"github.com/WilliamNHarvey/go-qrcode/v2"
+	"github.com/WilliamNHarvey/go-qrcode/writer/terminal"
 )
 
 func main() {
